@@ -62,7 +62,7 @@ class Debug_Bar_Timber extends Debug_Bar_Panel {
 				$data = $this->datas[$i];
 				foreach ($data as $key => $value) {
 					echo '<details style="outline: none;"><summary style="outline: none; cursor: pointer;">' . $key . '</summary>';
-					echo '<pre style="background-color:#000; font-family: Consolas, monospace, mono; white-space:pre">';
+					echo '<pre style="background-color:#222 !important; font-family: Consolas, monospace, mono; white-space:pre">';
 					dump($value);
 					echo '</pre></details>';
 				}
